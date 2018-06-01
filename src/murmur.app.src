@@ -1,0 +1,10 @@
+{application, murmur, [
+  {applications, [kernel, stdlib]},
+  {description, "murmur3 NIF"},
+  {env, []},
+  {licenses, ["MIT"]},
+  {links, [{"GitHub", "https://github.com/lpgauth/murmur"}]},
+  {maintainers, ["Louis-Philippe Gauthier"]},
+  {registered, []},
+  {vsn, "0.1.0"}
+]}.
