@@ -1,5 +1,14 @@
 # murmur
 
+> **Archived.** This repo has been superseded by
+> [**murmur_nif**](https://github.com/lpgauth/murmur_nif), which exposes
+> the same `murmur3_x64_128/1` and `murmur3_cassandra_x64_128/1` API
+> (byte-for-byte compatible), is published to hex.pm as `murmur_nif`,
+> and ships with modernized build, CI on OTP 25-28, dirty-scheduler
+> dispatch, and timeslice accounting. Migration: bump the dep to
+> `{murmur_nif, "0.1.0"}` and change `murmur:...` call sites to
+> `murmur_nif:...`.
+
 murmur3 Erlang NIF (with Cassandra variant)
 
 ## About
